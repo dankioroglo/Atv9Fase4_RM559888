@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    background-image: url(Imagem\ de\ Fundo.png);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 85vh; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 100%; 
+    font-size: 2.5rem; 
+    color: #cbdedc; 
+    text-align: center; 
+    letter-spacing: 0.5rem;
+}
+
+p {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #cbdedc;
+    text-align: center;
+    letter-spacing: 0.2rem;
+
+}
+
+p1 {
+    width: 100%;
+    font-size: 1rem;
+    color: #cbdedc;
+    text-align: center;
+    letter-spacing: 0.2rem;
+
+}
+
+
+section {
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 3rem; 
+}
+
+section input {
+    width: 30rem; 
+    align-items: center;
+    border: none; 
+    padding: 1rem; 
+    border-radius: 1.5rem; 
+    margin-bottom: 1rem; 
+    color: #011c13; 
+    font-size: 1rem; 
+    box-sizing: border-box; 
+}
+
+section button {
+    padding: 0.8rem 1.2rem; 
+    border: none; 
+    border-radius: 1.5rem; 
+    background-color: #cbdedc; 
+    color: #011c13; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+footer {
+
+    text-align: center; 
+    padding: 0; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 0; 
+    font-size: 1rem; 
+}
